@@ -1,0 +1,87 @@
+.register-container {
+  font-family: Arial, sans-serif;
+}
+
+.header-section {
+  background: linear-gradient(to right, #aad7c2, #f7ebd6);
+  text-align: center;
+  padding: 40px 20px;
+  color: #5d7f75;
+}
+
+.header-section h1 {
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+
+.header-section p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 10%;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.left-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.left-section h2 {
+  color: #5d7f75;
+}
+
+.price {
+  color: #a0b3a2;
+  font-weight: bold;
+}
+
+.left-section ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: square;
+  color: #555;
+}
+
+.right-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #5d7f75;
+}
+
+form input,
+form select,
+form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 20px;
+  background-color: #5d7f75;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #4b6a61;
+}

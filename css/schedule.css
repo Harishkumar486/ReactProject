@@ -1,0 +1,80 @@
+/* Green gradient background for the full header section */
+.schedule-header {
+  background: linear-gradient(to right, #bce0c2, #f7efd6);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.schedule-heading {
+  font-size: 40px;
+  color: #355f4c;
+  margin-bottom: 20px;
+}
+
+.schedule-intro {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Main container remains white */
+.schedule-container {
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+/* Each day block */
+.day-section {
+  background-color: #ffffff;
+  margin: 40px auto;
+  padding: 40px;
+  max-width: 950px;
+  border-top: 1px solid #ddd;
+}
+
+/* Day titles and dates */
+.day-title {
+  font-size: 30px;
+  color: #3a6f60;
+  margin-bottom: 10px;
+}
+
+.day-date {
+  font-size: 16px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+/* Each session row */
+.session {
+  display: flex;
+  border-top: 1px solid #eee;
+  padding: 20px 0;
+  background-color: #ffffff;
+}
+
+.session-time {
+  width: 100px;
+  color: #999;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+/* Session content layout */
+.session-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  flex-grow: 1;
+}
+
+.event {
+  width: 45%;
+}
+
+.event-topic {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}

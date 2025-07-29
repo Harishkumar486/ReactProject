@@ -1,0 +1,81 @@
+.locations-container {
+  width: 100vw;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+}
+#head-venue {
+  margin-top: 0%;
+  height: 25vh;
+  width: 100vw;
+  background-image:linear-gradient(to right,#b2d9b7,#f3f0d2);
+}
+#head-venue h2 {
+  padding-top: 30px;
+  color: #648880;
+  font-size: 27px;
+}
+
+#head-venue h2::first-letter {
+  text-transform: capitalize;
+  font-size: 36px;
+}
+
+#head-venue h3 {
+  color: #888888;
+  font-weight: 500;
+}
+
+.location-row {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.location-info {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+  text-align: left;
+  color: #5e7c73;
+}
+
+.location-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.location-info p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.location-info a {
+  color: #5e9e9d;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.location-info a:hover {
+  text-decoration: underline;
+}
+
+.location-map {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 400px;
+  max-width: 600px;
+}
+
+.location-map iframe {
+  width: 100%;
+  height: 250px; 
+  border: 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}

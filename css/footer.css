@@ -1,0 +1,30 @@
+div{
+    height: 12vh;
+    width:100vw;
+    background-color: #293f50;
+}
+span{
+    color:#648880;
+    position:absolute;
+    margin-top: 40px;
+    margin-left: 230px;
+}
+#sub-topics{
+    display:flex;
+    flex-direction: row;
+    padding-left: 40%;
+    padding-top: 38px;
+    justify-content: center;
+    gap:20px;
+    font-size: 14px;
+}
+.nav-bar{
+   margin:0px 30px;
+}
+.navbar {
+  color: white;
+  font-weight: 100;
+}
+.navbar:hover {
+  color: #648880;
+}

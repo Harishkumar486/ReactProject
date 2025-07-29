@@ -1,0 +1,92 @@
+.main-header {
+  width: 100%;
+  height: 60vh;
+  background-color: #293f50;
+  /* display: inline-block; */
+  position: absolute;
+  top: 0vh;
+}
+
+#heading {
+  padding-left: 20%;
+  padding-top: 30px;
+  display: inline-block;
+  color: white;
+  font-style: normal;
+  font-family: "system-ui";
+  font-weight: 100;
+  position: absolute;
+}
+
+#heading:hover {
+  color: #648880;
+}
+
+#h3 {
+  display: inline-block;
+  position: relative;
+  padding-left: 65%;
+  padding-top: 90px;
+  color: #648880;
+  font-weight: 300;
+  top: -25px;
+}
+
+#sub-topics {
+  display: flex;
+  gap: 25px;
+  color: white;
+  margin-top: -15px;
+  padding-left: 55%;
+}
+
+.navbar {
+  color: white;
+  font-weight: 400;
+}
+
+.navbar:hover {
+  color: #648880;
+}
+
+#sub-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.head {
+  text-align: center;
+  font-weight: 100;
+  color: white;
+}
+
+#head1 {
+  color: #648880;
+  font-size: 35px;
+  margin-top: 55px;
+  font-weight: 300;
+}
+
+#head2 {
+  font-size: 22px;
+  margin-top: -25px;
+}
+
+#head3 {
+  font-size: 22px;
+  margin-top: -20px;
+}
+#register {
+  border-color: white;
+  background-color: #293f50;
+  text-transform: uppercase;
+  color: white;
+  padding: 20px 30px;
+  align-items: center;
+}
+
+#register:hover {
+  background-color: white;
+  color: #648880;
+}
